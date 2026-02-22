@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PortfolioManager from '../components/PortfolioManager.jsx';
+---
+
+<Layout title="Francisco Steven Tabares U. | Portfolio">
+	<main class="min-h-screen p-4 md:p-8 flex items-center justify-center max-w-7xl mx-auto">
+		<PortfolioManager client:load />
+	</main>
+</Layout>

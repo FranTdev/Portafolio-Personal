@@ -1,0 +1,61 @@
+import React from 'react';
+
+const ProjectCard = ({
+    title = 'Untitled Project',
+    category = 'PROJECT',
+    desc = 'No description available.',
+    tech = [],
+    domain = 'data',
+    url = ''
+}) => {
+    const isData = domain === 'data' || (category && (category.includes('DATA') || category.includes('BACKEND')));
+    const isGame = domain === 'game' || (category && category.includes('GAME'));
+
+    // Gradient configs
+    const accentGradient = isData
+        ? 'from-cyan-500 to-blue-500'
+        : 'from-purple-500 to-pink-500';
+
+    const hoverGlow = isData
+        ? 'hover:shadow-cyan-500/10'
+        : 'hover:shadow-purple-500/10';
+
+    const tagBg = isData
+        ? 'bg-cyan-500/10 text-cyan-400 border-cyan-500/20'
+        : 'bg-purple-500/10 text-purple-400 border-purple-500/20';
+
+    const Component = url ? 'a' : 'div';
+    const componentProps = url ? { href: url, target: '_blank', rel: 'noopener noreferrer' } : {};
+
+    return (
+        <Component {...componentProps} className={`group relative flex flex-col justify-between rounded-3xl p-6 transition-all duration-300 ease-out glass-card glass-card-hover ${hoverGlow} h-full ${url ? 'cursor-pointer' : ''}`}>
+
+            {/* Hover accent line at top */}
+            <div className={`absolute top-0 left-6 right-6 h-[1px] bg-gradient-to-r ${accentGradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`}></div>
+
+            <div>
+                <div className="mb-4 flex items-center justify-between">
+                    <h3 className={`text-xl font-bold bg-gradient-to-r ${accentGradient} bg-clip-text text-transparent group-hover:bg-gradient-to-l transition-all duration-300 font-sans tracking-tight`}>
+                        {title}
+                    </h3>
+                    <span className={`rounded-full px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider border ${tagBg}`}>
+                        {category}
+                    </span>
+                </div>
+                <p className="mb-6 text-sm text-slate-400 leading-relaxed group-hover:text-slate-200 transition-colors font-sans">
+                    {desc}
+                </p>
+            </div>
+
+            <div className="flex flex-wrap gap-2 mt-auto">
+                {tech && tech.map((t, index) => (
+                    <span key={index} className="rounded-md bg-white/5 px-2 py-1 text-[11px] font-medium text-slate-400 font-mono border border-transparent group-hover:border-white/10 group-hover:bg-white/10 group-hover:text-slate-100 transition-all cursor-default">
+                        {t}
+                    </span>
+                ))}
+            </div>
+        </Component>
+    );
+};
+
+export default ProjectCard;

@@ -1,0 +1,351 @@
+{
+    "profile": {
+        "name": "Francisco Steven Tabares U.",
+        "role": "Computer Engineer",
+        "avatar": "https://ui-avatars.com/api/?name=Francisco+Tabares&background=0284c7&color=fff&size=200",
+        "linkedin_url": "https://www.linkedin.com/in/franciscotdev159753/",
+        "github_url": "https://github.com/FranTdev",
+        "cv_link": "/assets/cv_placeholder.pdf"
+    },
+    "translations": {
+        "en": {
+            "role_all": "Computer Engineer",
+            "role_backend": "Backend Engineer",
+            "role_data": "Data Scientist",
+            "role_infra": "Infrastructure & Ops Engineer",
+            "role_game": "Game Developer",
+            "hero_intro": "Hello, I'm",
+            "hero_desc_all": "Versatile engineer bridging the gap between data insights, robust backends, and reliable infrastructure.",
+            "overview_summary": "Comprehensive Computer Engineering profile. I design and build holistic solutions—from robust Backend architectures and Data pipelines to the Infrastructure that sustains them. Focused on the full software lifecycle, optimizing performance, and transforming raw data into business intelligence.",
+            "hero_desc_backend": "Architecting scalable APIs and high-performance microservices with C# and Python.",
+            "hero_desc_data": "Transforming complex datasets into actionable strategic insights using ML and Analytics.",
+            "hero_desc_infra": "Ensuring system reliability through DevOps best practices, Linux automation, and monitoring.",
+            "hero_desc_game": "Crafting immersive worlds and gameplay mechanics with Unity and C#.",
+            "nav_filters": {
+                "all": "Overview",
+                "backend": "Backend Engineering",
+                "data": "Data Science, ML & AI",
+                "infra": "Infrastructure & Ops"
+            },
+            "btn_cv": "Preview CV",
+            "btn_toggle_game": "Enter Game Dev Lab 🎮",
+            "btn_toggle_pro": "Return to Professional Core ",
+            "tech_title": "Technical Ecosystem",
+            "tech_subtitle": "Tech Toolbox",
+            "projects_empty": "No projects found for this category.",
+            "github_title": "GitHub Profile",
+            "knowledge_title": "Certifications & Knowledge",
+            "knowledge_subtitle": "Foundational Concepts"
+        },
+        "es": {
+            "role_all": "Ingeniero Informático",
+            "role_backend": "Ingeniero Backend",
+            "role_data": "Científico de Datos",
+            "role_infra": "Ingeniero de Infraestructura",
+            "role_game": "Desarrollador de Videojuegos",
+            "hero_intro": "Hola, soy",
+            "hero_desc_all": "Ingeniero versátil uniendo insights de datos, backends robustos e infraestructura confiable.",
+            "overview_summary": "Perfil integral de Ingeniería Informática (9º Semestre). Diseño y construyo soluciones completas: desde arquitecturas Backend robustas y flujos de Datos, hasta la Infraestructura que los soporta. Enfocado en el ciclo de vida del software, la optimización de rendimiento y la transformación de datos en decisiones de negocio.",
+            "hero_desc_backend": "Arquitectando APIs escalables y microservicios de alto rendimiento con C# y Python.",
+            "hero_desc_data": "Transformando datos complejos en decisiones estratégicas usando ML y Analítica.",
+            "hero_desc_infra": "Asegurando la fiabilidad del sistema mediante DevOps, automatización Linux y monitoreo.",
+            "hero_desc_game": "Creando mundos inmersivos y mecánicas de juego con Unity y C#.",
+            "nav_filters": {
+                "all": "Resumen",
+                "backend": "Backend",
+                "data": "Ciencia de Datos, ML e IA",
+                "infra": "Infraestructura"
+            },
+            "btn_cv": "Ver CV",
+            "btn_toggle_game": "Entrar al Lab de Juegos 🎮",
+            "btn_toggle_pro": "Volver al Núcleo Profesional �",
+            "tech_title": "Ecosistema Técnico",
+            "tech_subtitle": "Herramientas Tecnologicas",
+            "projects_empty": "No hay proyectos en esta categoría.",
+            "github_title": "Perfil de GitHub",
+            "knowledge_title": "Certificaciones y Conocimientos",
+            "knowledge_subtitle": "Conceptos Fundamentales"
+        }
+    },
+    "skills": [
+        {
+            "name": "Python",
+            "icon": "�",
+            "tags": [
+                "data",
+                "backend"
+            ]
+        },
+        {
+            "name": "C#",
+            "icon": "👾",
+            "tags": [
+                "backend",
+                "game"
+            ]
+        },
+        {
+            "name": "SQL",
+            "icon": "🛢️",
+            "tags": [
+                "data",
+                "backend"
+            ]
+        },
+        {
+            "name": "Linux/Bash",
+            "icon": "🐧",
+            "tags": [
+                "infra"
+            ]
+        },
+        {
+            "name": "Grafana",
+            "icon": "📊",
+            "tags": [
+                "infra"
+            ]
+        },
+        {
+            "name": "Docker",
+            "icon": "🐳",
+            "tags": [
+                "infra",
+                "backend"
+            ]
+        },
+        {
+            "name": "Unity",
+            "icon": "🎮",
+            "tags": [
+                "game"
+            ]
+        },
+        {
+            "name": "Git",
+            "icon": "🔀",
+            "tags": [
+                "backend",
+                "infra"
+            ]
+        },
+        {
+            "name": "React/Astro",
+            "icon": "⚛️",
+            "tags": [
+                "all"
+            ]
+        },
+        {
+            "name": "Wireshark",
+            "icon": "🦈",
+            "tags": [
+                "infra"
+            ]
+        },
+        {
+            "name": "Pandas/Numpy",
+            "icon": "🐼",
+            "tags": [
+                "data"
+            ]
+        },
+        {
+            "name": "FastAPI",
+            "icon": "�",
+            "tags": [
+                "backend"
+            ]
+        },
+        {
+            "name": "NodeJS",
+            "icon": "�",
+            "tags": [
+                "backend"
+            ]
+        },
+        {
+            "name": ".NET",
+            "icon": "�",
+            "tags": [
+                "backend"
+            ]
+        },
+        {
+            "name": "postman",
+            "icon": "�",
+            "tags": [
+                "backend",
+                "infra"
+            ]
+        },
+        {
+            "name": "MongoDB",
+            "icon": "",
+            "tags": [
+                "backend",
+                "data"
+            ]
+        },
+        {
+            "name": "PowerBI",
+            "icon": "",
+            "tags": [
+                "data"
+            ]
+        },
+        {
+            "name": "Excel",
+            "icon": "",
+            "tags": [
+                "data"
+            ]
+        },
+        {
+            "name": "Scikit-learn",
+            "icon": "",
+            "tags": [
+                "data"
+            ]
+        },
+        {
+            "name": "TensorFlow",
+            "icon": "",
+            "tags": [
+                "data"
+            ]
+        },
+        {
+            "name": "Keras",
+            "icon": "",
+            "tags": [
+                "data"
+            ]
+        },
+        {
+            "name": "Ubuntu Server",
+            "icon": "",
+            "tags": [
+                "infra"
+            ]
+        },
+        {
+            "name": "Virtual Box",
+            "icon": "",
+            "tags": [
+                "infra"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Customer-Segmentation-Analysis",
+            "description": "Segmentación estratégica de clientes para marketing usando K-Means Clustering y Python. Identificación de 5 perfiles de consumo para optimización de ventas.",
+            "tags": [
+                "data"
+            ],
+            "tech": [
+                "Python",
+                "Jupyter Notebook",
+                "Scikit-learn",
+                "Pandas"
+            ],
+            "type": "project",
+            "url": "https://github.com/FranTdev/Customer-Segmentation-Analysis"
+        },
+        {
+            "title": "Publishwed",
+            "description": "Publishweb is a specialized web development project focused on the seamless integration of front-end interfaces with robust backend logic. Designed with scalability in mind.",
+            "tags": [
+                "backend"
+            ],
+            "tech": [
+                "FastAPI",
+                "React/Astro",
+                "PostgreSQL",
+                "Python"
+            ],
+            "type": "project",
+            "url": "https://github.com/FranTdev/Publishwed"
+        },
+        {
+            "title": "Task Manager API Python",
+            "description": "RESTful API built with Python to efficiently manage tasks and workflows.",
+            "tags": [
+                "backend"
+            ],
+            "tech": [
+                "Python",
+                "FastAPI"
+            ],
+            "type": "project",
+            "url": "https://github.com/FranTdev/Task_Manager_API_Python"
+        },
+        {
+            "title": "DungeonsAdventure",
+            "description": "Console application in C# demonstrating a scalable, interface-based architecture for a text adventure game, applying SOLID principles.",
+            "tags": [
+                "game"
+            ],
+            "tech": [
+                "C#"
+            ],
+            "type": "project",
+            "url": "https://github.com/FranTdev/DungeonsAdventure"
+        },
+        {
+            "title": "SKRol",
+            "description": "Interactive system and tool designed to manage game states and operations.",
+            "tags": [
+                "backend",
+                "game"
+            ],
+            "tech": [
+                "Python",
+                "FastAPI",
+                "React"
+            ],
+            "type": "project",
+            "url": "https://github.com/FranTdev/SKRol"
+        },
+        {
+            "title": "HumusGraph",
+            "description": "Aplicación web fullstack para monitorear datos de sensores de vermicompost. Te permite desplegar tu propio servidor central donde tus microcontroladores (ej. ESP32, Arduino) pueden comunicarse.",
+            "tags": [
+                "data"
+            ],
+            "tech": [
+                "Python",
+                "FastAPI",
+                "React/Astro"
+            ],
+            "type": "project",
+            "url": "https://github.com/FranTdev/HumusGraph"
+        }
+    ],
+    "knowledge": {
+        "title": "Certifications & Library",
+        "items": [
+            {
+                "area": "DS4A",
+                "desc": "Data Analysis Fundamentals"
+            },
+            {
+                "area": "Google",
+                "desc": "Cybersecurity Professional Certificate"
+            },
+            {
+                "area": "Oracle + Alura",
+                "desc": "Back-end Developer"
+            },
+            {
+                "area": "SENA",
+                "desc": "Machine Learning for Clustering and Data Segmentation"
+            },
+            {
+                "area": "SENA",
+                "desc": "Digital Marketing and Sales Strategies"
+            }
+        ]
+    }
+}
